@@ -6,13 +6,32 @@
     android:layout_height="match_parent"
     tools:context="com.example.takehometest.MainActivity">
 
-    <TextView
+    <Button
+        android:id="@+id/btnMaskingList"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
+        android:text="@string/masking_list"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="146dp"
+        android:layout_marginRight="8dp"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.502" />
+
+    <Button
+        android:id="@+id/btnApiList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/api_list"
+        android:layout_marginTop="23dp"
+        app:layout_constraintTop_toBottomOf="@+id/btnMaskingList"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintVertical_bias="0.058" />
 
 </android.support.constraint.ConstraintLayout>
