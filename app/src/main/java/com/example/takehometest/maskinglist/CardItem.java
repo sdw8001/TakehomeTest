@@ -6,4 +6,19 @@ package com.example.takehometest.maskinglist;
 
 public class CardItem {
     private String comment;
+
+    public CardItem(){
+        comment = "";
+    }
+    public CardItem(String comment){
+        this.comment = comment;
+    }
+
+    public String getComment() {
+        return comment;
+    }
+
+    public void setComment(String comment) {
+        this.comment = comment;
+    }
 }
